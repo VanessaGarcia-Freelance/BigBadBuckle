@@ -257,6 +257,43 @@ body {
 						}
 
 
+/* Prev/Next Buttons */
+.nav-single, #nav-below {
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.nav-single a, #nav-below a {
+	background: #EAEAEA;
+	background: rgba(0, 0, 0, 0.05);
+	color: #333333;
+	display: block;
+	font-weight: bold;
+	height: 25px;
+	padding: 5px 10px 0 10px;
+	text-align: left;
+	text-decoration: none;
+	max-width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transition: all 0.05s linear;
+	-moz-transition: all 0.05s linear;
+	-o-transition: all 0.05s linear;
+	transition: all 0.05s linear;
+}
+.nav-single .nav-previous, #nav-below .nav-previous {
+	width: auto;
+}
+.nav-single .nav-next a, #nav-below .nav-next a{
+	float: right;
+	text-align: right;
+}
+
+/* Comments */
+.nav-single + .comments-area, #comment-nav-above {
+	margin: 0;
+}
+
 
 /*Posts*/
 	.entry-header {
