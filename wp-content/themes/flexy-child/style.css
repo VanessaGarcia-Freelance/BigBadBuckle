@@ -255,3 +255,41 @@ body {
 						ul#menu-specials li a img:hover {
 							opacity: 1;
 						}
+
+/*Post footer */
+
+	footer.entry-meta {
+		border-top: #E3E3E3 1px solid;
+		border-bottom: none;
+		margin-bottom: 20px;
+		height: 30px;
+		margin-top: 40px;
+	}
+
+	.bottomcontainerBox {
+		padding-top: 20px;
+	}
+	.bottomcontainerBox .date {
+		float: right;
+
+	}
+	.bottomcontainerBox .date a{
+		color: black;
+		font-weight: 600;
+	}
+	.bottomcontainerBox .date a:hover{
+		color: #F06632;
+	}
+	.bottomcontainerBox .date time.entry-date:after {
+		content: '';
+		width: 10px;
+		height: 10px;
+		display: inline-block;
+		margin-left: 5px;
+		width: 0; 
+		height: 0; 
+		border-top: 6px solid transparent;
+		border-bottom: 6px solid transparent;
+		
+		border-left: 6px solid black;
+	}
