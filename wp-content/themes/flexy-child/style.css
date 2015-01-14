@@ -15,7 +15,6 @@
 /*importing twentyforteen theme styles*/
 @import url(../flexy/style.css);
 
-/* Main Styles */
 body {
 	background: #efefef url(images/background.png) top center repeat-x;
 	background-attachment: fixed;
@@ -256,45 +255,6 @@ body {
 							opacity: 1;
 						}
 
-
-/* Prev/Next Buttons */
-.nav-single, #nav-below {
-	text-transform: capitalize;
-	margin-bottom: 20px;
-}
-.nav-single a, #nav-below a {
-	background: #EAEAEA;
-	background: rgba(0, 0, 0, 0.05);
-	color: #333333;
-	display: block;
-	font-weight: bold;
-	height: 25px;
-	padding: 5px 10px 0 10px;
-	text-align: left;
-	text-decoration: none;
-	max-width: 200px;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-transition: all 0.05s linear;
-	-moz-transition: all 0.05s linear;
-	-o-transition: all 0.05s linear;
-	transition: all 0.05s linear;
-}
-.nav-single .nav-previous, #nav-below .nav-previous {
-	width: auto;
-}
-.nav-single .nav-next a, #nav-below .nav-next a{
-	float: right;
-	text-align: right;
-}
-
-/* Comments */
-.nav-single + .comments-area, #comment-nav-above {
-	margin: 0;
-}
-
-
 /*Posts*/
 	.entry-header {
 		margin-bottom: 10px;
@@ -384,6 +344,62 @@ body {
 		border-left: 6px solid black;
 	}
 
+/* Prev/Next Buttons */
+.nav-single, #nav-below {
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.nav-single a, #nav-below a {
+	background: #EAEAEA;
+	background: rgba(0, 0, 0, 0.05);
+	color: #333333;
+	display: block;
+	font-weight: bold;
+	height: 25px;
+	padding: 5px 10px 0 10px;
+	text-align: left;
+	text-decoration: none;
+	max-width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transition: all 0.05s linear;
+	-moz-transition: all 0.05s linear;
+	-o-transition: all 0.05s linear;
+	transition: all 0.05s linear;
+}
+.nav-single .nav-previous, #nav-below .nav-previous {
+	width: auto;
+}
+.nav-single .nav-next a, #nav-below .nav-next a{
+	float: right;
+	text-align: right;
+}
+
+/* Comments */
+.nav-single + .comments-area, #comment-nav-above {
+	margin: 0;
+}
+
+
+
+/* SEARCH PAGE */
+
+body.search .page-header {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+body.search .page-title{
+	font: 40px "Josefin Sans", "Helvetica Neue", Arial;
+	font-weight: 300;
+	line-height: 50px;
+	margin: 30px 0 20px 0;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: none;	
+}
+
 /* Footer */
 footer[role="contentinfo"] {
 	border: none;
@@ -420,6 +436,8 @@ footer[role="contentinfo"] {
 		margin-left: 5px;
 		color: #8d8d8d;
 	}
+
+
 
 /* MEDIA QUERIES */
 /* *** */
