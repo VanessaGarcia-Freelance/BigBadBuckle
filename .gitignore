@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!wp-content/*
+!wp-content/plugins/
+!wp-content/plugins/*
+!wp-content/plugins/*/*
+!wp-content/plugins/*/*/*
+!wp-content/plugins/*/*/*/*
+!wp-content/plugins/*/*/*/*/*
+!wp-content/themes/
+!wp-content/themes/*
+!wp-content/themes/*/*
+!wp-content/themes/*/*/*
+!wp-content/themes/*/*/*/*
+!wp-content/themes/*/*/*/*/*
+
+
+
+
+# ...even if they are in subdirectories
+!*/
