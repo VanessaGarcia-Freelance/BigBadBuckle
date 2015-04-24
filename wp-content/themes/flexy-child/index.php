@@ -8,6 +8,9 @@
 get_header(); ?>
 
 	<div id="primary" class="site-content">
+		<div class="logo">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
+		</div>
 		<div id="content" role="main">
 		<?php if ( have_posts() ) : ?>
 

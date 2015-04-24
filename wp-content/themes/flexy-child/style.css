@@ -28,7 +28,9 @@ body {
 	a:hover {
 		color: #F06632;
 	}
-
+	#primary .logo {
+		display: block;
+	}
 	#page {
 		padding: 0 20px;
 		padding-bottom: 40px;
@@ -60,6 +62,9 @@ body {
 				}
 
 /* Sidebar */
+		#secondary {
+			display: none;
+		}
 		#secondary.widget-area{
 			/*padding-left: 50px;*/
 			max-width: 310px;
@@ -69,8 +74,10 @@ body {
 				display: block;
 			}
 			.logo img {
-				margin-top: 0;
 				box-shadow: none;
+				margin: 0 auto;
+			  	display: block;
+			  	margin-bottom: 30px;
 			}
 
 			.widget-area .widget {
@@ -285,7 +292,7 @@ body {
 			display: block;
 			width: auto;
 			max-width: 540px;
-
+			width: 100%;
 			border: none;
 			display: block;
 			height: auto;
@@ -468,5 +475,18 @@ footer[role="contentinfo"] {
 @media screen and (min-width: 600px) {
 	#secondary.widget-area {
 		max-width: 310px;
+	}
+}
+
+@media screen and (min-width: 800px) { 
+	#primary .logo {
+		display: none;
+	}
+	.logo img {
+		margin-bottom: 0;
+	}
+
+	#secondary {
+		display: block;
 	}
 }
